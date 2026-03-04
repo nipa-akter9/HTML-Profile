@@ -1,0 +1,139 @@
+/* ========== Basic Reset ========== */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ========== Layout ========== */
+body {
+	background: #f3f5f7;
+	height: 100vh;
+}
+
+.wrapper {
+	display: flex;
+	height: 100vh;
+}
+
+/* ========== Sidebar ========== */
+.sidebar {
+	width: 240px;
+	background: #000;
+	color: #fff;
+	padding: 20px 16px;
+	position: relative;
+}
+
+.brand {
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+.brand h1 {
+	font-size: 24px;
+	margin-bottom: 6px;
+}
+
+.brand p {
+	font-size: 13px;
+	opacity: 0.8;
+}
+
+.nav-btn {
+	display: block;
+	width: 100%;
+	text-decoration: none;
+	color: #fff;
+	border: 1px solid rgba(255,255,255,0.25);
+	padding: 10px 12px;
+	margin-bottom: 12px;
+	border-radius: 6px;
+	font-size: 16px;
+	text-align: center;
+}
+
+/* Active colors */
+.active-login {
+	background: #1e73ff; /* blue */
+	border-color: #1e73ff;
+}
+
+.active-register {
+	background: #19b36b; /* green */
+	border-color: #19b36b;
+}
+
+/* ========== Main Area ========== */
+.main {
+	flex: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+}
+
+/* ========== Card (center window) ========== */
+.card {
+	width: 420px;
+	background: #fff;
+	border-radius: 10px;
+	padding: 28px;
+	box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+}
+
+.card h2 {
+	font-size: 22px;
+	margin-bottom: 18px;
+}
+
+/* ========== Form ========== */
+.form-row {
+	margin-bottom: 14px;
+}
+
+label {
+	display: block;
+	font-size: 14px;
+	margin-bottom: 6px;
+	color: #222;
+}
+
+input[type="text"],
+input[type="password"],
+select {
+	width: 100%;
+	padding: 10px 12px;
+	border: 1px solid #cfd6dd;
+	border-radius: 6px;
+	font-size: 14px;
+	outline: none;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+select:focus {
+	border-color: #7aa7ff;
+}
+
+/* Buttons */
+.btn {
+	width: 100%;
+	padding: 11px 12px;
+	border: none;
+	border-radius: 6px;
+	font-size: 16px;
+	color: #fff;
+	cursor: pointer;
+}
+
+.btn-login {
+	background: #1e73ff; /* blue */
+}
+
+.btn-register {
+	background: #19b36b; /* green */
+}
+
+
